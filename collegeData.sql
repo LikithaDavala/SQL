@@ -35,7 +35,6 @@ percentage = 86 where name = "Lavanya";
 update collegeData set
 percentage = 87 where name = "kavya";
 
-
 update collegeData 
 set  collegename = "Ramachandra College" 
 where name = "Likitha" OR name = "Lally" OR name = "Kavya" OR name = "Lavanya";
