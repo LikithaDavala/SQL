@@ -25,7 +25,6 @@ alter table studentData drop column pincode;
 
 update studentData set place =  "Vizag" where name = "likitha";
 
-
 insert into studentData(name, age, place, gender)
 values
   ("Naveen", 27, "Vizag", "male");
