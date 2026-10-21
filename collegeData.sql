@@ -13,9 +13,7 @@ values ("Likitha", "IOT", 2024, "Eluru"),
 ("Lavanya", "IOT", 2024, "Eluru"),
 ("Kavya", "IOT", 2025, "Eluru");
 
-
 alter table collegeData add percentage varchar(5), collegename varchar(20);
-
 
 update collegeData set
 percentage = 95 where name = "Naveen";
